@@ -55,7 +55,9 @@ To illustrate the use of F1-score, let's consider an example of binary classific
 Using the formula for F1-score, we can calculate the F1-score of this model as follows:
 
 Precision = 760 / (760 + 80) = 0.905
+
 Recall = 760 / (760 + 40) = 0.950
+
 F1-score = 2 *(Precision* Recall) / (Precision + Recall) = 0.927
 
 This means that the model has a high F1-score, indicating that it is making accurate predictions with both high precision and recall. However, we should also look at other metrics such as accuracy and consider the specific problem being solved to get a comprehensive understanding of the model's performance.

@@ -1,13 +1,13 @@
-# ML-for-beginners
+# ML For Beginners
 
 This repository is intended for beginners who want to learn about Machine Learning. It contains a collection of ML terminologies and basic ML projects that cover a wide range of topics.
 
 ## Table of Contents
 
-- Introduction
-- Projects
-- Terminologies
-- Contributing
+- [Introduction](https://github.com/CodingMantras/ml-for-beginners#introduction)
+- [Projects](https://github.com/CodingMantras/ml-for-beginners#projects)
+- [Terminologies](https://github.com/CodingMantras/ml-for-beginners#terminologies)
+- [Contributing](https://github.com/CodingMantras/ml-for-beginners#contributing)
 
 ## Introduction
 
@@ -26,14 +26,14 @@ Each project has a detailed explanation of the dataset and the code implementati
 
 The following terminologies are included in this repository:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Overfitting
-- Underfitting
-- Gradient Descent
+- [Accuracy](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/accuracy_of_ml_model.md)
+- [Precision](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/precision_of_ml_model.md)
+- [Recall](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/recall_of_an_ml_model.md)
+- [F1 Score](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/f1_score_of_ml_model.md)
+- [Confusion Matrix]()
+- [Overfitting]()
+- [Underfitting]()
+- [Gradient Descent]()
 Each terminology has a detailed explanation and code snippets for implementation.
 
 ## Contributing

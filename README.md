@@ -30,6 +30,7 @@ The following terminologies are included in this repository:
 - [Precision](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/precision_of_ml_model.md)
 - [Recall](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/recall_of_an_ml_model.md)
 - [F1 Score](https://github.com/CodingMantras/ml-for-beginners/blob/master/precision-recall-accuracy-f1score/f1_score_of_ml_model.md)
+- [True Positive & True Negative](https://github.com/CodingMantras/ml-for-beginners/blob/master/true_positive_true_negative.md)
 - [Confusion Matrix]()
 - [Overfitting]()
 - [Underfitting]()

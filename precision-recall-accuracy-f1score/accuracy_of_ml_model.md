@@ -45,6 +45,8 @@ Accuracy = (900 + 45) / (900 + 45 + 25 + 30) = 0.945
 
 Thus, the accuracy of the credit card fraud detection model is 94.5%.
 
+## Caution
+
 Accuracy is an important metric because it provides an overall measure of the performance of the model. However, it is important to note that accuracy can be misleading in certain cases, such as when the dataset is imbalanced or when the cost of false positives and false negatives is not the same.
 
 In an imbalanced dataset, where one class is much more frequent than the other, a model can achieve high accuracy by simply predicting the majority class for all samples. In such cases, other metrics such as precision, recall, and F1-score may provide a better indication of the model's performance.

@@ -1,4 +1,4 @@
-# What is accuracy of an ML Model
+# What is Accuracy of an ML Model
 
 ## Introduction
 
@@ -11,8 +11,15 @@ Accuracy is a statistical measure of how well a binary classification model can 
 ## Mathematically, accuracy can be expressed as
 
 Accuracy = (Number of Correct Predictions) / (Total Number of Samples)
+
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
-where TP (True Positive) is the number of correctly predicted positive samples, TN (True Negative) is the number of correctly predicted negative samples, FP (False Positive) is the number of wrongly predicted positive samples, and FN (False Negative) is the number of wrongly predicted negative samples.
+
+Where:
+
+- TP (True Positive) is the number of correctly predicted positive samples
+- TN (True Negative) is the number of correctly predicted negative samples
+- FP (False Positive) is the number of wrongly predicted positive samples, and
+- FN (False Negative) is the number of wrongly predicted negative samples
 
 ## Why is accuracy important?
 
@@ -22,15 +29,20 @@ Accuracy is a very important metric for machine learning models, especially in b
 
 To better understand accuracy, let's consider a few examples:
 
-Example 1: Email Spam Classifier
+### Example 1: Email Spam Classifier
+
 Suppose you have built an email spam classifier that predicts whether an email is spam or not. You have tested the model on 100 emails, and it has correctly classified 80 emails as not spam and 10 emails as spam. However, it has also misclassified 5 non-spam emails as spam and 5 spam emails as non-spam. In this case, the accuracy of the model can be calculated as follows:
+
 Accuracy = (80 + 10) / (80 + 10 + 5 + 5) = 0.9
+
 Thus, the accuracy of the email spam classifier is 90%.
 
-## Example 2: Credit Card Fraud Detection
+### Example 2: Credit Card Fraud Detection
 
 Suppose you have built a machine learning model that predicts whether a credit card transaction is fraudulent or not. You have tested the model on a dataset of 1000 transactions, out of which 950 are genuine and 50 are fraudulent. The model correctly predicts 900 genuine transactions and 45 fraudulent transactions. However, it also wrongly predicts 25 genuine transactions as fraudulent and 30 fraudulent transactions as genuine. In this case, the accuracy of the model can be calculated as follows:
+
 Accuracy = (900 + 45) / (900 + 45 + 25 + 30) = 0.945
+
 Thus, the accuracy of the credit card fraud detection model is 94.5%.
 
 Accuracy is an important metric because it provides an overall measure of the performance of the model. However, it is important to note that accuracy can be misleading in certain cases, such as when the dataset is imbalanced or when the cost of false positives and false negatives is not the same.

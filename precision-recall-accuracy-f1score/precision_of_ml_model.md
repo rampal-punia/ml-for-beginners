@@ -12,7 +12,7 @@ Precision is a performance metric used in machine learning models to measure the
 
 To calculate precision, divide the number of true positive predictions by the sum of true positive and false positive predictions:
 
-### Precision = True Positives / (True Positives + False Positives)
+**Precision = True Positives / (True Positives + False Positives)**
 
 For example, consider a machine learning model that identifies whether an email is spam or not. After testing the model on a dataset of 100 emails, we get the following results:
 
@@ -23,9 +23,9 @@ For example, consider a machine learning model that identifies whether an email 
 
 Using the formula above, we can calculate the precision of the model as:
 
-### Precision = 20 / (20 + 5)
+**Precision = 20 / (20 + 5)**
 
-### Precision = 0.8 or 80%
+**Precision = 0.8 or 80%**
 
 This means that out of all the emails predicted to be spam by the model, 80% were actually spam. A high precision value indicates that the model is making few false positive predictions, meaning that when the model predicts an email to be spam, it is likely to be correct. Conversely, a low precision value indicates that the model is making a large number of false positive predictions, meaning that when the model predicts an email to be spam, it is more likely to be incorrect.
 
